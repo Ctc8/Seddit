@@ -41,10 +41,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://imgur.com/a/YnKI518
+https://www.youtube.com/watch?v=OSTS3NfIKLg
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Kap
+GIF created with YouTube
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -52,7 +52,7 @@ GIF created with Kap
 
 ## Notes
 
-Styling took a long time.
+Styling and commenting system was most difficult. Also getting the dates to be properly displayed was challenging.
 
 ## License
 
