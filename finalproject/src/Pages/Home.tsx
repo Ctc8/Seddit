@@ -18,7 +18,7 @@ export default function Home({ searchTerm }) {
 			console.error(error)
 		} else {
 			if (sort) {
-				data.sort((a, b) => new Date(b.date) - new Date(a.date))
+				data.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 			} else if (sortPopular) {
 				data.sort((a, b) => b.upvotes - a.upvotes)
 			}
