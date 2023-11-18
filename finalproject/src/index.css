@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #8bbaff;
+    height: 65px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-text {
+    padding-left: 10px;
+    margin: 0; 
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+.seddit-logo {
+    padding-left: 40px;
+    width: 45px;
+}
+
+nav a {
+    margin: 0 16px; 
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #118ae0;
+}
+
+.search-bar {
+    margin: 0 auto; 
+    width: 380px; 
+    height: 30px; 
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    padding-left: auto;
+}

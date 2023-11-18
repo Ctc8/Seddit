@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(208, 208, 208);
+}
+
+.posts-card {
+  background-color: white;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 35px;
+}
+
+.post-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.upvotes {
+  color: rgb(80, 80, 80);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+
+.time {
+  color: rgb(139, 139, 139);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: center; /* Align buttons in the center */
+  padding-right: 1010px; /* Add some space to the left */
+}
+
+.order-by {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+}
+
+.sort-buttons button {
+  background-color: #00306f; 
+  border: none; 
+  border-radius: 10px;
+  color: white; 
+  padding: 10px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  margin: 36px 2px;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+}
+
+.sort-buttons button:hover {
+  background-color: #004093; 
+}
